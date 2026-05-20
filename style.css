@@ -129,3 +129,6 @@
                 transparent
             );
         }
+.win-calendar {
+    width: min(360px, 95vw);
+}
