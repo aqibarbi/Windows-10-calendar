@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 10 Fluent Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+</head>
+<body>
+
+    <div class="win-calendar">
+        <!-- Header -->
+        <div class="calendar-header">
+            <span id="month-year"></span>
+            <div class="nav-btns">
+                <button id="prev"><i class="ri-arrow-up-s-line"></i></button> <!-- Segoe UI Symbol Up Arrow alternative -->
+                <button id="next"><i class="ri-arrow-down-s-line"></i></button> <!-- Segoe UI Symbol Down Arrow alternative -->
+            </div>
+        </div>
+
+        <!-- Body Grid -->
+        <div class="calendar-body">
+            <div class="days-of-week">
+                <div>Su</div><div>Mo</div><div>Tu</div><div>We</div>
+                <div>Th</div><div>Fr</div><div>Sa</div>
+            </div>
+            <div id="calendar-grid" class="calendar-grid"></div>
+        </div>
+    </div>
+
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
